@@ -1,0 +1,31 @@
+*{
+    margin: 0px ;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+h1{
+    font-family: "Bungee Tint", sans-serif;
+    margin-top: 170px;
+}
+
+form{
+    display: flex;
+    margin-top: 50px;
+    font-family: "Inter", system-ui;
+    flex-direction: column;
+    background-color: antiquewhite;
+    height: 350px;
+    width: 290px;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.37);
+}

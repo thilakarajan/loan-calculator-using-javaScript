@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Inter:wght@100..900&family=Playwrite+CU:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Loan Calculator</h1>
+
+    <form>
+      <label for="loan-amount">Loan Amount:</label>
+      <input type="number" id="loan-amount" value="20000" />
+
+      <label for="interest-rate">Interest Rate (%):</label>
+      <input type="number" id="interest-rate" value="6" />
+
+      <label for="loan-term">Loan Term (years):</label>
+      <input type="number" id="loan-term" value="5" />
+
+      <label for="monthly-payment">Monthly Payment:</label>
+      <input type="text" id="monthly-payment" readonly />
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html>
